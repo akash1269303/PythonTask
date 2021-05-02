@@ -11,6 +11,9 @@ import io
 from rest_framework.response import Response
 from rest_framework import viewsets
 
+
+# You can check this API in POSTMAN or its also browsable API.
+
 # fetching list of shortened URLs
 class Shortner(ListAPIView):
     queryset=Link.objects.all()
